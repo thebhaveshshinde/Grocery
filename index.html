@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./phone.css" media="screen and (max-width:745px)">
+</head>
+
+<body>
+    <main id="main_container">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <div class="Box">
+                <img src="./img/Tomato.webp">
+                <h2 class="Secondary">Tomato</h2>
+                <p class="Product_Desc">(500g x 2) Tomato is a juicy, red fruit commonly used as a vegetable in cooking,
+                    offering a sweet and tangy flavour.</p>
+                <span>Price: ₹ 55</span>
+                <button class="btn" onclick="Check()">Add to Cart</button>
+            </div>
+
+            <div class="Box">
+
+                <img src="./img/Cabbage.webp">
+                <h2 class="Secondary">Cabbage</h2>
+                <p class="Product_Desc">1 piece-Product Description Approx: 450 - 650 g. Leafy, cruciferous vegetable
+                    with dense slightly peppery flavor.</p>
+                <span>Price: ₹ 65</span>
+                <button class="btn" onclick="Check()">Add to Cart</button>
+            </div>
+
+            <div class="Box">
+
+                <img src="./img/Onion.webp">
+                <h2 class="Secondary">Organic Onion</h2>
+                <p class="Product_Desc">Staple in Indian food, with sharp flavour and fragrance.</p>
+                <span>Price:₹ 105</span>
+                <button class="btn" onclick="Check()">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="home">
+            <div class="Box1">
+                <img src="./img/Milk.jpg">
+                <h2 class="Secondary">Milk</h2>
+                <p class="Product_Desc">Product Description 200gm commonly used as a vegetable in cooking,
+                    offering a sweet and tangy flavour.</p>
+                <span>Price: ₹ 85</span>
+                <button class="btn" onclick="Check()">Add to Cart</button>
+            </div>
+
+            <div class="Box1">
+
+                <img src="./img/Panner.jpg">
+                <h2 class="Secondary">Panner</h2>
+                <p class="Product_Desc">1 piece-Product Description Approx: 450 - 650 g. Leafy, cruciferous vegetable
+                    with dense, layered leaves and a mild, slightly peppery flavor.</p>
+                <span>Price: ₹ 250</span>
+                <button class="btn" onclick="Check()">Add to Cart</button>
+            </div>
+
+            <div class="Box1">
+
+                <img src="./img/Potato.webp">
+                <h2 class="Secondary">Potato</h2>
+                <p class="Product_Desc">1kg: Versatile and hearty, potatoes offer a neutral taste and smooth texture.
+                </p>
+                <span>Price:₹ 115</span>
+                <button class="btn" onclick="Check()">Add to Cart</button>
+            </div>
+
+        </section>
+
+        <section id="about">
+            <h1 class="Secondary">About</h1>
+            <div id="About_Container">
+                <p>Welcome to grocStore, your trusted destination for all your grocery needs. We are committed to
+                    providing our customers with a seamless shopping experience, offering a wide range of high-quality
+                    groceries at the most affordable prices.</p><br>
+
+                <p> At grocStore, we believe that everyone deserves access to fresh, nutritious, and delicious food.
+                    That's why we source our products from trusted suppliers and ensure that they meet our stringent
+                    quality standards.</p><br>
+
+                <p> Our dedicated team of professionals works tirelessly to ensure that our shelves are always stocked
+                    with a diverse selection of products to cater to your every need. Whether you're looking for fresh
+                    fruits and vegetables, pantry staples, or gourmet treats, you'll find it all at grocStore.</p><br>
+
+                <p>We are passionate about supporting our local community and strive to offer products from local
+                    farmers and producers whenever possible. By choosing grocStore, you're not only getting great value
+                    but also supporting local businesses and sustainable practices.</p><br>
+
+                <p>Thank you for choosing grocStore. We look forward to serving you and making your grocery shopping
+                    experience enjoyable and hassle-free!</p><br>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div id="Container">
+                <h1>Contact Grocery Store Owner</h1><br>
+                <p>Contact No.- <b>1234567890</b></p><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eius harum similique, facilis illum
+                    assumenda ipsam ab, quaerat quod dicta distinctio. Itaque totam recusandae nam ipsam cum id, tempora
+                    ut magni repellat quod nobis expedita ea optio soluta quis eaque quam? Accusantium adipisci omnis
+                    nesciunt, non tenetur inventore atque fuga ab, repellendus qui voluptatum error amet hic deleniti
+                    tempore repellat id consequatur corrupti nisi! Assumenda veritatis facilis ab unde perferendis iure
+                    accusamus amet? Modi distinctio, consectetur unde excepturi sunt architecto laudantium asperiores
+                    nulla voluptatum eveniet pariatur corrupti laboriosam odit deserunt laborum aspernatur rem error
+                    obcaecati! Ea ut eveniet fugiat recusandae!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis qui nemo nostrum, ut quia
+                    tempora optio ipsam dolorum libero placeat corrupti tenetur dolorem autem quod repellat. Velit
+                    facilis exercitationem corrupti dignissimos repudiandae tempora, sequi optio atque? Unde similique
+                    quaerat sunt et reiciendis beatae explicabo nesciunt, corrupti necessitatibus, consequatur dolorum.
+                </p>
+            </div>
+        </section>
+
+        <section id="login">
+            <div id="log">
+                <h1>Login</h1>
+            </div><br><br>
+            <form id="form_container">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter the Username"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter the Password"><br><br>
+
+                <button class="btn" onclick="Submit()">Sign in</button>
+            </form>
+        </section>
+        <br>
+        <br>
+
+
+        <section id="cart">
+
+            <button id="btn"  onclick="Getlocation()"><b>Click to Add Product and Address</b></button>
+
+        </section>
+
+        <footer id="foot">
+            <p id="ft">&copy; Copyright Restricted 2024</p>
+        </footer>
+
+
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

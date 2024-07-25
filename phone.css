@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+#navbar ul li{
+    padding: 8px;
+    /* margin-left: 100px; */
+}
+
+#navbar ul li a{
+    font-size : 14px ;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+}
+
+#home img{
+    height: 120px;
+    width: 230px;
+    border: 2px solid black;
+}
+
+#Container p{
+    color: gray;
+    text-align: center;
+}
+
+#Container h1{
+    text-align: center;
+}
+
+#about{
+    margin-top: 100px;
+}
+
+#About_Container{
+    text-align: center;
+}
+
+#form_container label{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#form_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1000px;
+}
+
+#log h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#ft{
+    font-size: 14px;
+}
