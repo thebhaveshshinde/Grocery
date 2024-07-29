@@ -77,6 +77,8 @@
     justify-content: center;
     text-align: center;
     margin-top: 1000px;
+    height: 100%;
+    z-index: 10;
 }
 
 #log h1{
@@ -87,4 +89,177 @@
 
 #ft{
     font-size: 14px;
+}
+
+#foot{
+    margin-bottom: 0px;
+}
+
+#carth1 {
+    font-size: 15px;
+}
+
+#cartimg {
+    border: 2px solid black;
+    height: 170 px;
+    width: 200px;
+}
+
+#cartimg1 {
+    border: 2px solid black;
+    height: 60 px;
+    width: 180px;
+}
+
+#cartimg2 {
+    border: 2px solid black;
+    height: 50 px;
+    width: 180px;
+}
+
+#cartimg3 {
+    border: 2px solid black;
+    height: 50 px;
+    width: 180px;
+}
+
+#cartimg4 {
+    border: 2px solid black;
+    height: 50 px;
+    width: 180px;
+}
+
+#cartimg5 {
+    border: 2px solid black;
+    height: 50 px;
+    width: 180px;
+}
+
+#cart{
+    display: flex;
+    z-index: 5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    height: 100%;
+}
+
+
+
+.Removebtn{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.Removebtn1{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.Removebtn2{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.Removebtn3{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.Removebtn4{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.Removebtn5{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.Box{
+    height: 450px;
+}
+
+.Box1{
+    height: 450px;
+}
+
+.Boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 320px;
+    width: 270px;
+    margin: 30px;
+}
+
+.Boxes1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 450px;
+    width: 270px;
+    margin: 30px;
+}
+
+.Boxes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 450px;
+    width: 270px;
+    margin: 30px;
+}
+
+.Boxes3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 450px;
+    width: 270px;
+    margin: 30px;
+}
+
+.Boxes4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 450px;
+    width: 270px;
+    margin: 30px;
+}
+
+.Boxes5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 450px;
+    width: 270px;
+    margin: 30px;
 }

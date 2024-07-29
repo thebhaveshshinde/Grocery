@@ -7,11 +7,13 @@
     <title>Grocery Store</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./phone.css" media="screen and (max-width:745px)">
+    <!-- <script src="./index.js"></script> -->
 </head>
 
 <body>
     <main id="main_container">
         <nav id="navbar">
+
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -25,20 +27,20 @@
             <div class="Box">
                 <img src="./img/Tomato.webp">
                 <h2 class="Secondary">Tomato</h2>
-                <p class="Product_Desc">(500g x 2) Tomato is a juicy, red fruit commonly used as a vegetable in cooking,
-                    offering a sweet and tangy flavour.</p>
+                <p class="Product_Desc">(500g x 2) Tomato is a juicy, red fruit commonly used as a vegetable in cooking, offering a sweet and tangy flavour.</p>
+                   
                 <span>Price: ₹ 55</span>
-                <button class="btn" onclick="Check()">Add to Cart</button>
+                <button class="btn" id="btn" onclick="AddtocartTomato()">Add to Cart</button>
             </div>
 
             <div class="Box">
 
                 <img src="./img/Cabbage.webp">
                 <h2 class="Secondary">Cabbage</h2>
-                <p class="Product_Desc">1 piece-Product Description Approx: 450 - 650 g. Leafy, cruciferous vegetable
-                    with dense slightly peppery flavor.</p>
+                <p class="Product_Desc">1 piece-Product Description Approx: 450 - 650 g. Leafy, cruciferous vegetable with dense slightly peppery flavor.</p>
+                    
                 <span>Price: ₹ 65</span>
-                <button class="btn" onclick="Check()">Add to Cart</button>
+                <button class="btn" onclick="AddtocartCabbage()">Add to Cart</button>
             </div>
 
             <div class="Box">
@@ -47,7 +49,7 @@
                 <h2 class="Secondary">Organic Onion</h2>
                 <p class="Product_Desc">Staple in Indian food, with sharp flavour and fragrance.</p>
                 <span>Price:₹ 105</span>
-                <button class="btn" onclick="Check()">Add to Cart</button>
+                <button class="btn" onclick="AddtocartOnion()">Add to Cart</button>
             </div>
         </section>
 
@@ -58,7 +60,7 @@
                 <p class="Product_Desc">Product Description 200gm commonly used as a vegetable in cooking,
                     offering a sweet and tangy flavour.</p>
                 <span>Price: ₹ 85</span>
-                <button class="btn" onclick="Check()">Add to Cart</button>
+                <button class="btn" onclick="AddtocartMilk()">Add to Cart</button>
             </div>
 
             <div class="Box1">
@@ -68,7 +70,7 @@
                 <p class="Product_Desc">1 piece-Product Description Approx: 450 - 650 g. Leafy, cruciferous vegetable
                     with dense, layered leaves and a mild, slightly peppery flavor.</p>
                 <span>Price: ₹ 250</span>
-                <button class="btn" onclick="Check()">Add to Cart</button>
+                <button class="btn" onclick="AddtocartPanner()">Add to Cart</button>
             </div>
 
             <div class="Box1">
@@ -78,7 +80,7 @@
                 <p class="Product_Desc">1kg: Versatile and hearty, potatoes offer a neutral taste and smooth texture.
                 </p>
                 <span>Price:₹ 115</span>
-                <button class="btn" onclick="Check()">Add to Cart</button>
+                <button class="btn" onclick="AddtocartPotato()">Add to Cart</button>
             </div>
 
         </section>
@@ -86,7 +88,8 @@
         <section id="about">
             <h1 class="Secondary">About</h1>
             <div id="About_Container">
-                <p>Welcome to grocStore Website, your trusted destination for all your grocery needs. We are committed to
+                <p>Welcome to grocStore Website, your trusted destination for all your grocery needs. We are committed
+                    to
                     providing our customers with a seamless shopping experience, offering a wide range of high-quality
                     groceries at the most affordable prices.</p><br>
 
@@ -127,33 +130,39 @@
             </div>
         </section>
 
-        <section id="login">
-            <div id="log">
-                <h1>Login</h1>
-            </div><br><br>
-            <form id="form_container">
-                <label for="username">Username:</label>
-                <input type="text" id="username" placeholder="Enter the Username"><br><br>
+        <!-- <div> -->
+            <section id="login">
+                <div id="log">
+                    <h1>Login</h1>
+                </div><br><br>
+                <form id="form_container">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Enter the Username"><br><br>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="Enter the Password"><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter the Password"><br><br>
 
-                <button class="btn" onclick="Submit()">Sign in</button>
-            </form>
-        </section>
+                    <button class="btn" onclick="Submit()">Sign in</button>
+                </form>
+            </section>
+        <!-- </div> -->
         <br>
         <br>
+
 
 
         <section id="cart">
 
-            <button id="btn"  onclick="Getlocation()"><b>Click to Add Product and Address</b></button>
+            <!-- <button id="btn"  onclick="Getlocation()"><b>Click to Add Product and Address</b></button> -->
+
+            <p id="initial">Cart is Empty . Please select the product.(Cart Can Store only 3 Products).</p>
 
         </section>
 
-        <footer id="foot">
+
+        <!-- <footer id="foot">
             <p id="ft">&copy; Copyright Restricted 2024</p>
-        </footer>
+        </footer> -->
 
 
     </main>
