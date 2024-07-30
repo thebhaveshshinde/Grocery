@@ -196,10 +196,12 @@
 
 .Box{
     height: 450px;
+    width: 300px;
 }
 
 .Box1{
     height: 450px;
+    width: 300px;
 }
 
 .Boxes {
@@ -208,7 +210,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    height: 320px;
+    height: 420px;
     width: 270px;
     margin: 30px;
 }
