@@ -96,6 +96,9 @@ function AddtocartTomato() {
 
 
 
+    const removebutton = document.getElementById("rmv")
+    const digvi = document.getElementById("real")
+
 
 
     document.getElementById('increament').addEventListener('click', function () {
@@ -121,12 +124,8 @@ function AddtocartTomato() {
     bath.forEach((bath) => bath.addEventListener('click', function () {
 
         document.querySelectorAll('.Boxes').forEach((Box) => Box.innerHTML = null)
-        document.querySelectorAll('.Boxes').forEach((Box) => Box.style = "border:none")
+        document.querySelectorAll('.Boxes').forEach((Box) => Box.style = "display:none")
         eventcount = 0
-
-        // document.getElementById('real').innerText="Cart is Empty.Please Select the Product."
-
-
 
     }))
 
@@ -238,7 +237,7 @@ function AddtocartCabbage() {
     bath1.forEach((bath1) => bath1.addEventListener('click', function () {
 
         document.querySelectorAll('.Boxes1').forEach((Box1) => Box1.innerHTML = null)
-        document.querySelectorAll('.Boxes1').forEach((Box1) => Box1.style = "border:none")
+        document.querySelectorAll('.Boxes1').forEach((Box1) => Box1.style = "display:none")
         eventcount1 = 0
 
         // document.getElementById('real').innerText="Cart is Empty.Please Select the Product."
@@ -355,7 +354,7 @@ function AddtocartOnion() {
     bath2.forEach((bath2) => bath2.addEventListener('click', function () {
 
         document.querySelectorAll('.Boxes2').forEach((Box2) => Box2.innerHTML = null)
-        document.querySelectorAll('.Boxes2').forEach((Box2) => Box2.style = "border:none")
+        document.querySelectorAll('.Boxes2').forEach((Box2) => Box2.style = "display:none")
         eventcount2 = 0
 
         // document.getElementById('real').innerText="Cart is Empty.Please Select the Product."
@@ -474,7 +473,7 @@ function AddtocartMilk() {
     bath3.forEach((bath3) => bath3.addEventListener('click', function () {
 
         document.querySelectorAll('.Boxes3').forEach((Box3) => Box3.innerHTML = null)
-        document.querySelectorAll('.Boxes3').forEach((Box3) => Box3.style = "border:none")
+        document.querySelectorAll('.Boxes3').forEach((Box3) => Box3.style = "display:none")
         eventcount3 = 0
 
         // document.getElementById('real').innerText="Cart is Empty.Please Select the Product."
@@ -590,7 +589,7 @@ function AddtocartPanner() {
     bath4.forEach((bath4) => bath4.addEventListener('click', function () {
 
         document.querySelectorAll('.Boxes4').forEach((Box4) => Box4.innerHTML = null)
-        document.querySelectorAll('.Boxes4').forEach((Box4) => Box4.style = "border:none")
+        document.querySelectorAll('.Boxes4').forEach((Box4) => Box4.style = "display:none")
         eventcount4 = 0
 
         // document.getElementById('real').innerText="Cart is Empty.Please Select the Product."
@@ -629,7 +628,7 @@ function AddtocartPotato() {
 
     var h2 = document.createElement('h2')
     h2.className = "Secondary"
-    h2.innerText = "Panner"
+    h2.innerText = "Potato"
     main_div5.appendChild(h2)
 
     var p = document.createElement("p")
@@ -707,9 +706,9 @@ function AddtocartPotato() {
     bath5.forEach((bath5) => bath5.addEventListener('click', function () {
 
         document.querySelectorAll('.Boxes5').forEach((Box5) => Box5.innerHTML = null)
-        document.querySelectorAll('.Boxes5').forEach((Box5) => Box5.style = "border:none")
+        document.querySelectorAll('.Boxes5').forEach((Box5) => Box5.style = "display:none")
         eventcount5 = 0
-
+        
         // document.getElementById('real').innerText="Cart is Empty.Please Select the Product."
 
 
@@ -717,7 +716,6 @@ function AddtocartPotato() {
     }))
 
 }
-
 
 
 
